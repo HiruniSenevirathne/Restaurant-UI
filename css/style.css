@@ -1,0 +1,324 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+}
+header{
+   
+    height: 112px;
+    line-height: 112px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.secondary{
+    background-color:black;
+    opacity: 85%;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+header nav{
+    float: right;
+}
+.logo img{
+    margin-top: -40px;
+}
+header nav ul li a{
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+header nav ul li a:hover{
+    text-decoration: none;
+    color:rgb(170, 162, 162);
+}
+.img1{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/photo-1517248135467-4c7edcad34c4.jpeg);
+    background-size: 100% 100%;
+}
+.slider,.slider ul,.slider ul li{
+    height:710px;
+    width:100%;
+    color:white;
+    text-align: center;
+
+}
+.slider ul li h2{
+    font-weight: bold;
+    font-size: 100px;
+    margin-top: 0px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.slider ul li h4{
+   
+  
+    font-size: 30px;
+    margin-top: 200px;
+    
+   
+}
+.slider ul li p{
+    font-size: 20px;
+}
+.img2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/food-liquor-restaurant-dine-meal-1280-720-770x433.jpg);
+    background-size: 100% 100%;
+}
+.img3{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/Website-Home-Page-750x422.jpg);
+    background-size: 100% 100%;
+}
+.about{
+    background-color: white;
+    height:120vh;
+	width:100%;
+	background-size:cover;
+}
+
+.about h1{
+    text-align: center;
+    margin-top: 95px;
+    font-size: 50px;
+    font-style: inherit;
+    font-family: Trattatello, fantasye;
+}
+.about p{
+    text-align: center;
+    margin-top: -15px;
+    font-size: 25px;
+    font-style: oblique;
+}
+.about img{
+    margin-top: -65px;
+    margin-left:570px;
+}
+.box{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(../images/0000015_buffet-breakfast-for-two-at-the-hassler_550.jpeg);
+    background-size: cover;
+    background-position:center;
+    height:100vh;
+	width:100%;
+	
+}
+.intro-area{
+    position: relative;
+    padding: 90px 0px;
+    text-align: center;
+}
+.intro-area h2{
+    font-size: 55px;
+    text-align: center;
+    color: ivory;
+    
+}
+.intro-block{
+    position:relative;
+    background:none;
+    margin:5px;
+    padding:70px 25px 40px;
+    text-align: center;
+    
+}
+
+
+.intro-block .intro icon{
+    position: absolute;
+    top:10px;
+    left: 50%;
+    margin-left: -31px;
+}
+.intro-block img{
+    width:70px;
+    height: 70px;
+    image-resolution: 30px;
+    line-height: 2px;
+    background-color:white;
+    border-radius: 20%;
+   
+
+}
+.intro-block p{
+    color: ivory;
+}
+.intro-block h3{
+    color: ivory;
+}
+.intro-block {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.intro-block:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.intro-area a,.btn-half{
+    
+    padding: 10px 40px;
+    font-size: 20px;
+    color: white;
+    border: white;
+    border-radius: 10%;
+    background-color:none;
+    width: 180px;
+    border: 2px solid white;
+   
+}
+.btn-half {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.btn-half:hover {
+	-webkit-transform: scale(1);
+    transform: scale(1.2);
+   
+}
+.bread{
+    height: 100vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+.bread h1{
+    margin-top: 80px;
+    font-size: 60px;
+    text-align: center;
+   
+}
+
+.bread p{
+    font-size:30px;
+	word-wrap:break-word;
+    width:700px;
+    margin-left: 60px;
+    margin-top: 90px;
+
+}
+.bread img{
+    float: right;
+    margin-right: 60px;
+    margin-top: -240px;
+}
+.beer{
+    background-image: url(../images/the-beer-smacks-of-expressive-fruity-and-funky-notes-but-drinks-like-a-crusher-.jpg.webp);
+    background-size: cover;
+    background-position:center;
+    height:150vh;
+	width:100%;
+}
+.beer h1{
+    text-align: center;
+    color:white;
+    font-size: 60px;
+}
+.beer p{
+    font-size:30px;
+	word-wrap:break-word;
+    width:700px;
+    margin-right: 20px;
+    margin-top: 180px;
+    color: white;
+    float: right;
+}
+.app{
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    width:100%;
+}
+.app input[type="text"]{
+	
+	background:white;
+	margin:10px ;
+	padding:14px 10px;
+	width:350px;
+	outline:none;
+    color:black;
+    margin-left: 30px;
+}
+.sub{
+    font-size: 20px;
+    color: rgb(12, 20, 68);
+    margin-top: -200;
+    margin-left: 20px;
+    height: 20vh;
+}
+.sub input[type="submit"]{
+	
+    background:mediumseagreen;
+    font-size: 20px;
+	margin:10px ;
+	padding:14px 10px;
+	width:150px;
+	outline:none;
+    color:white;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.app h1{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 50px;
+}
+.theme h2{
+    margin-left: 950px;
+    margin-top: -250px;
+    font-size: 35px;
+}
+.theme p{
+    margin-left: 900px;
+    font-size: 23px;
+    font-style: inherit;
+}
+.box1{
+    background-color:#1a1a1a;
+    height: 60vh;
+    background-size: cover;
+    background-position:center;
+    width:100%;
+    
+   
+}
+.intro-area1 h2{
+    color: white;
+    font-size: 70px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+
+}
+.intro-block1 h3{
+    color: white;
+    text-align: center;
+}
+.intro-block1 p{
+    text-align: center;
+    color: #b3b3b3;
+    font-size: 20px;
+}
+
+.intro-block1,.social li{
+ 
+	font-size:30px;
+    color:white;
+    text-align: center;
+    color: #b3b3b3;
+    padding-left: 20px;
+   
+    
+}
+.intro-block1,.social li:hover{
+    color: gold;
+
+}
+hr{
+    width: 20%;
+    margin-left: 145px;
+    counter-reset: wheat;
+}
